@@ -1,0 +1,56 @@
+<class-diagram version="1.0.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="org.danilocarvalho.Projeto.ProjetoActivity" 
+    project="Projeto" file="/Projeto/src/org/danilocarvalho/Projeto/ProjetoActivity.java" binary="false">    
+    <position height="-1" width="-1" x="463" y="138"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="org.danilocarvalho.Projeto.CameraViewBase" project="Projeto" 
+    file="/Projeto/src/org/danilocarvalho/Projeto/CameraViewBase.java" binary="false">    
+    <position height="-1" width="-1" x="150" y="113"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="org.danilocarvalho.Projeto.FaceDetectionView" 
+    project="Projeto" file="/Projeto/src/org/danilocarvalho/Projeto/FaceDetectionView.java" binary="false">    
+    <position height="-1" width="-1" x="149" y="391"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="org.danilocarvalho.Projeto.Distortion" project="Projeto" 
+    file="/Projeto/src/org/danilocarvalho/Projeto/Distortion.java" binary="false">    
+    <position height="-1" width="-1" x="440" y="351"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" corner="BOTTOM_RIGHT" language="java" name="org.danilocarvalho.Projeto.Distortion.Type" 
+    project="Projeto" file="/Projeto/src/org/danilocarvalho/Projeto/Distortion.java" binary="false">    
+    <position height="-1" width="-1" x="699" y="354"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <generalization>    
+    <end type="SOURCE" nodeId="3"/>    
+    <end type="TARGET" nodeId="2"/>  
+  </generalization>  
+  <nesting>    
+    <end type="SOURCE" nodeId="4"/>    
+    <end type="TARGET" nodeId="5"/>  
+  </nesting>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
